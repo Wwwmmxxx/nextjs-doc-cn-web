@@ -1,5 +1,6 @@
 ---
 title: 安装
+description: https://nextjs.org/docs/getting-started/installation
 ---
 
 系统环境需求:

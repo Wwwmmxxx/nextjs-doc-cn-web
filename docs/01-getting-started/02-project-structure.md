@@ -1,5 +1,6 @@
 ---
 title: 项目结构
+description: https://nextjs.org/docs/getting-started/project-structure
 ---
 
 本页概述了 Next.js 项目的文件和文件夹结构. 内容包括顶层文件和文件夹, 配置文件, `app` 目录和 `pages` 目录的路由约定.
