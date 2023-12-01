@@ -1,7 +1,7 @@
 {
-    "label": "构建你的应用程序",
-    "link": {
-        "type": "doc",
-        "id": "building-your-application/introduction"
-    }
+  "label": "构建你的应用程序",
+  "link": {
+    "type": "doc",
+    "id": "building-your-application/intro"
+  }
 }

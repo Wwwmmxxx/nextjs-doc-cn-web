@@ -1,7 +1,7 @@
 {
-    "label": "路由",
-    "link": {
-        "type": "doc",
-        "id": "building-your-application/routing/introduction"
-    }
+  "label": "路由",
+  "link": {
+    "type": "doc",
+    "id": "building-your-application/routing/intro"
+  }
 }
