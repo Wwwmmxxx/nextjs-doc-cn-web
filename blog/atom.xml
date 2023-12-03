@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://your-docusaurus-site.example.com/blog</id>
+    <title>Next.js 中文翻译 Blog</title>
+    <updated>2023-12-03T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://your-docusaurus-site.example.com/blog"/>
+    <subtitle>Next.js 中文翻译 Blog</subtitle>
+    <icon>https://your-docusaurus-site.example.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[12-03]]></title>
+        <id>https://your-docusaurus-site.example.com/blog/12-03</id>
+        <link href="https://your-docusaurus-site.example.com/blog/12-03"/>
+        <updated>2023-12-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[我是一名技术不怎么样的全栈开发.]]></summary>
+        <content type="html"><![CDATA[<p>我是一名技术不怎么样的全栈开发.</p>
+<p>在 11 月份开发 Next.js 应用项目时, 发现 Next.js 当前只有一份较旧的中文文档.</p>
+<p>目前的<a href="https://www.nextjs.cn/docs/getting-started" target="_blank" rel="noopener noreferrer">中文文档</a>中, 是没有 <code>App Router</code> 相关功能的介绍的.</p>
+<p>所以想试着每天翻译一小节, 一方面是为了学习, 另一方面也是为了巩固.</p>
+<p>翻译有单独的项目, 请查看 =&gt; <a href="https://github.com/Wwwmmxxx/nextjs-doc-cn" target="_blank" rel="noopener noreferrer">点击查看</a>.</p>
+<p>上周看到 Github 中有中国朋友是把 Markdown 直接放到网页中的, 感觉这个方法很好, 我也想试着学习并且做一下.</p>
+<p>现在每日计划:</p>
+<ul>
+<li>翻译 1 小节</li>
+<li>迁移 2 小节 (从翻译项目迁移到当前 web 项目)</li>
+</ul>
+<p><strong>Tips</strong>: 我的英语和理解能力有限, 有地方是机翻, 有地方是本人翻译的, 有些地方怎么翻都不好, 如果哪里有问题或建议大家可以 PR.</p>]]></content>
+        <author>
+            <name>Wwwmmxxx</name>
+            <uri>https://github.com/Wwwmmxxx</uri>
+        </author>
+        <category label="blog" term="blog"/>
+    </entry>
+</feed>
