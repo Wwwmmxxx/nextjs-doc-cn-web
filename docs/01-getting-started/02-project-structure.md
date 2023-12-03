@@ -65,11 +65,11 @@ description: https://nextjs.org/docs/getting-started/project-structure
 
 ### Dynamic Routes (动态路由)
 
-| 文件名                                                                                                                        | 简述                       |
-| ----------------------------------------------------------------------------------------------------------------------------- | -------------------------- |
-| [\[folder\]](https://nextjs.org/docs/app/building-your-application/routing/dynamic-routes#convention)                         | 动态路由片段               |
-| [\[...folder\]](https://nextjs.org/docs/app/building-your-application/routing/dynamic-routes#catch-all-segments)              | 捕获所有的路由片段         |
-| [\[\[...folder\]\]](https://nextjs.org/docs/app/building-your-application/routing/dynamic-routes#optional-catch-all-segments) | 可选的, 捕获所有的路由片段 |
+| 文件名                                                                                                                        | 简述                     |
+| ----------------------------------------------------------------------------------------------------------------------------- | ------------------------ |
+| [\[folder\]](https://nextjs.org/docs/app/building-your-application/routing/dynamic-routes#convention)                         | 动态路由片段             |
+| [\[...folder\]](https://nextjs.org/docs/app/building-your-application/routing/dynamic-routes#catch-all-segments)              | 捕获所有的路由段         |
+| [\[\[...folder\]\]](https://nextjs.org/docs/app/building-your-application/routing/dynamic-routes#optional-catch-all-segments) | 选择性的捕获所有的路由段 |
 
 ### Routes Groups and Private Folders (路由组和私有文件夹)
 

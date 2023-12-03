@@ -32,7 +32,7 @@ export default function Page() {
 
 #### Linking to Dynamic Segments (链接到动态路由段)
 
-当想要跳转到 [dynamic segments(动态路由段)](https://nextjs.org/docs/app/building-your-application/routing/dynamic-routes)时, 你可以使用 [template literals and interpolation(模板文字和函数插值法)].(https://developer.mozilla.org/docs/Web/JavaScript/Reference/Template_literals) 生成一系列的链接. 比如, 生成一个博客文章列表:
+当想要跳转到 [dynamic segments(动态路由段)](https://nextjs.org/docs/app/building-your-application/routing/dynamic-routes)时, 你可以使用 [template literals and interpolation(模板文字和函数插值法)](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Template_literals) 生成一系列的链接. 比如, 生成一个博客文章列表:
 
 ```tsx title="app/blog/PostList.js"
 import Link from "next/link";
