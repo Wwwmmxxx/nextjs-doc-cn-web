@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Next.js 中文翻译 Blog</title>
-        <link>https://wwwmmxxx.github.io/blog</link>
+        <link>https://wwwmmxxx.github.io/nextjs-doc-cn-web/blog</link>
         <description>Next.js 中文翻译 Blog</description>
         <lastBuildDate>Sun, 03 Dec 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,8 +10,8 @@
         <language>en</language>
         <item>
             <title><![CDATA[12-03]]></title>
-            <link>https://wwwmmxxx.github.io/blog/12-03</link>
-            <guid>https://wwwmmxxx.github.io/blog/12-03</guid>
+            <link>https://wwwmmxxx.github.io/nextjs-doc-cn-web/blog/12-03</link>
+            <guid>https://wwwmmxxx.github.io/nextjs-doc-cn-web/blog/12-03</guid>
             <pubDate>Sun, 03 Dec 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[我是一名技术不怎么样的全栈开发.]]></description>
             <content:encoded><![CDATA[<p>我是一名技术不怎么样的全栈开发.</p>
