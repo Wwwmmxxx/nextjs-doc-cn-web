@@ -8,14 +8,14 @@ const config: Config = {
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://wwwmmxxx.github.io/",
+  url: "https://wwwmmxxx.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/nextjs-doc-cn-web/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "Wwwmmxxx", // Usually your GitHub org/user name.
+  organizationName: "wwwmmxxx", // Usually your GitHub org/user name.
   projectName: "nextjs-doc-cn-web", // Usually your repo name.
 
   onBrokenLinks: "throw",
