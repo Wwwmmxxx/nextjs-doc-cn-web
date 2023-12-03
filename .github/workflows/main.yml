@@ -21,9 +21,9 @@ jobs:
           npm install
           npm run-script build
       - name: Deploy
-        uses: turnerlabs/s3-docusaurus-sync-action@1.0.2
+        uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
-          ACCESS_TOKEN: ${{secrets.ACCESS_TOKEN}}
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BRANCH: main
           FOLDER: build
           BUILD_SCRIPT: npm install && npm run build
