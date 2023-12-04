@@ -16,7 +16,7 @@ Route groups(路由组)对以下情况会有帮助:
 
 ---
 
-## Convention (协定)
+## Convention (文件名协定)
 
 用括号括起文件夹名称, 即可创建路由组, 如: `(folderName)`
 

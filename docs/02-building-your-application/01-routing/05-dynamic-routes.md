@@ -7,7 +7,7 @@ description: https://nextjs.org/docs/app/building-your-application/routing/dynam
 
 ---
 
-## Convention (协定)
+## Convention (文件名协定)
 
 用方括号括起文件夹名称, 即可创建动态段, 如: `[文件夹名称]`. 比如, `[id]` 或 `[slug]`.
 
