@@ -57,6 +57,7 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
+    metadata: [{ name: "keywords", content: "nextjs,translate,cn" }],
     navbar: {
       title: "Next.js-in-Chinese",
       logo: {
