@@ -99,6 +99,8 @@ export default async function Layout(props: {
 
 当一个用户导航到 `@auth/login`, 或 URL 栏内是 `/login`, `loginSegments` 将会是 `login`.
 
+---
+
 ## Examples (示例)
 
 ### Modals (拟态窗口)
