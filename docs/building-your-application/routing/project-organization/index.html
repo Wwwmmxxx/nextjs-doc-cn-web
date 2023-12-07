@@ -5,7 +5,7 @@
 <meta name="generator" content="Docusaurus v3.0.0">
 <title data-rh="true">项目结构和文件位置 | Next.js 中文翻译</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://wwwmmxxx.github.io/nextjs-doc-cn-web/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://wwwmmxxx.github.io/nextjs-doc-cn-web/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://wwwmmxxx.github.io/nextjs-doc-cn-web/docs/building-your-application/routing/project-organization"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="keywords" content="nextjs,translate,cn"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="项目结构和文件位置 | Next.js 中文翻译"><meta data-rh="true" name="description" content="https://nextjs.org/docs/app/building-your-application/routing/colocation"><meta data-rh="true" property="og:description" content="https://nextjs.org/docs/app/building-your-application/routing/colocation"><link data-rh="true" rel="icon" href="/nextjs-doc-cn-web/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://wwwmmxxx.github.io/nextjs-doc-cn-web/docs/building-your-application/routing/project-organization"><link data-rh="true" rel="alternate" href="https://wwwmmxxx.github.io/nextjs-doc-cn-web/docs/building-your-application/routing/project-organization" hreflang="en"><link data-rh="true" rel="alternate" href="https://wwwmmxxx.github.io/nextjs-doc-cn-web/docs/building-your-application/routing/project-organization" hreflang="x-default"><link rel="alternate" type="application/rss+xml" href="/nextjs-doc-cn-web/blog/rss.xml" title="Next.js 中文翻译 RSS Feed">
 <link rel="alternate" type="application/atom+xml" href="/nextjs-doc-cn-web/blog/atom.xml" title="Next.js 中文翻译 Atom Feed"><link rel="stylesheet" href="/nextjs-doc-cn-web/assets/css/styles.a30419b5.css">
-<script src="/nextjs-doc-cn-web/assets/js/runtime~main.2d361336.js" defer="defer"></script>
+<script src="/nextjs-doc-cn-web/assets/js/runtime~main.e2eb29ab.js" defer="defer"></script>
 <script src="/nextjs-doc-cn-web/assets/js/main.053967e3.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -26,7 +26,7 @@
 <p>这表示, 项目内的文件可以安全地放置在 <code>app</code> 目录中的路由段内, 而不会意外变为可路由的.</p>
 <p><img loading="lazy" src="https://nextjs.org/_next/image?url=%2Fdocs%2Flight%2Fproject-organization-colocation.png&amp;w=1920&amp;q=75&amp;dpl=dpl_FMGsYbamaCihTR7jyf43krGr3wQk" alt="safe_colocation_by_default_3" class="img_ev3q"></p>
 <blockquote>
-<p><strong>请注意</strong>:</p>
+<p><strong>请注意:</strong></p>
 <ul>
 <li>这与 <code>pages</code> 目录不同, <code>pages</code> 内的任何文件都会被视为一个路由.</li>
 <li>你可以将项目文件放在 <code>app</code> 目录中, 但你也可以不这样做, 如果你愿意, 可以将它们<a href="https://nextjs.org/docs/app/building-your-application/routing/colocation#store-project-files-outside-of-app" target="_blank" rel="noopener noreferrer">keep them outside the <code>app</code> directory(放在 <code>app</code> 目录外)</a>.</li>
@@ -47,7 +47,7 @@
 <li>避免与未来 Next.js 文件协定产生潜在的命名冲突.</li>
 </ul>
 <blockquote>
-<p><strong>请注意</strong>:</p>
+<p><strong>请注意:</strong></p>
 <ul>
 <li>虽然这不是一个框架协定, 但你也可以考虑使用相同的下划线模式将私人文件夹之外的文件标记为 &quot;私人&quot; 文件.</li>
 <li>你可以在文件夹名称前加上 <code>%5F</code> (下划线的 URL 编码形式), 创建以下划线开头的 URL 段: <code>%5FfolderName</code>.</li>
@@ -79,7 +79,7 @@
 <p>在 Next.js 项目中组织管理自己的文件和文件夹没有 &quot;对 &quot;或 &quot;错 &quot;之分.</p>
 <p>下一节列出了常见策略的概述. 最简单的方法就是选择一种适合你和你团队的策略, 并在整个项目中保持一致.</p>
 <blockquote>
-<p><strong>请注意</strong>: 在下面的示例中, 我们使用 <code>components</code> 和 <code>lib</code> 文件夹作为通用的占位符, 它们的命名没有特殊的框架意义, 你的项目可能会使用其他文件夹, 如 <code>ui</code>, <code>utils</code>, <code>hooks</code>, <code>styles</code> 等.</p>
+<p><strong>请注意:</strong> 在下面的示例中, 我们使用 <code>components</code> 和 <code>lib</code> 文件夹作为通用的占位符, 它们的命名没有特殊的框架意义, 你的项目可能会使用其他文件夹, 如 <code>ui</code>, <code>utils</code>, <code>hooks</code>, <code>styles</code> 等.</p>
 </blockquote>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="store-project-files-outside-of-app-在-app-外存储项目文件">Store project files outside of <code>app</code> (在 <code>app</code> 外存储项目文件)<a href="#store-project-files-outside-of-app-在-app-外存储项目文件" class="hash-link" aria-label="Direct link to store-project-files-outside-of-app-在-app-外存储项目文件" title="Direct link to store-project-files-outside-of-app-在-app-外存储项目文件">​</a></h3>
 <p>这种策略将所有应用程序代码 都存储在项目根目录下的共享文件夹中, 而 <code>app</code> 目录则纯粹用于路由目的.</p>
