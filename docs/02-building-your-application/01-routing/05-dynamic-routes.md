@@ -33,7 +33,7 @@ export default function Page({ params }: { params: { slug: string } }) {
 
 查看 [generateStaticParams()](https://nextjs.org/docs/app/building-your-application/routing/dynamic-routes#generating-static-params) 页面来学习怎么为段生成参数.
 
-> **请注意**: Dynamic Segments(动态段) 与 `pages` 目录内的[Dynamic Routes(动态路由)](https://nextjs.org/docs/app/building-your-application/routing/dynamic-routes) 是相同的.
+> **请注意:** Dynamic Segments(动态段) 与 `pages` 目录内的[Dynamic Routes(动态路由)](https://nextjs.org/docs/app/building-your-application/routing/dynamic-routes) 是相同的.
 
 ---
 
@@ -106,7 +106,7 @@ export default function Page({ params }: { params: { slug: string } }) {
 | `app/shop/[...slug]/page.js`        | \{slug: string\[\]\}                   |
 | `app/[categoryId]/[itemId]/page.js` | \{categoryId: string, itemId: string\} |
 
-> **请注意**: 在未来, 这或许可以通过 [Typescript plugin(Typescript 插件)](https://nextjs.org/docs/app/building-your-application/configuring/typescript#typescript-plugin) 自动完成.
+> **请注意:** 在未来, 这或许可以通过 [Typescript plugin(Typescript 插件)](https://nextjs.org/docs/app/building-your-application/configuring/typescript#typescript-plugin) 自动完成.
 
 # Next Steps
 

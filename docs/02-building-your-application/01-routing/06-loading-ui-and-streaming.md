@@ -26,7 +26,7 @@ export default function Loading() {
 
 ![instant_loading_state_2](https://nextjs.org/_next/image?url=%2Fdocs%2Fdark%2Floading-overview.png&w=3840&q=75&dpl=dpl_Ejtt9BCyCFNeRJdBoVsM9Es9x8xe)
 
-> **请注意**:
+> **请注意:**
 >
 > - 导航是立即的, 即使是通过 [server-centric routing(中心化服务的路由)](https://nextjs.org/docs/app/building-your-application/routing/linking-and-navigating#how-routing-and-navigation-works).
 > - 导航是可以被中段的, 这表示, 当从一个路由跳转到另一个路由时, 是不需要等待页面完全加载后再执行的.
@@ -34,7 +34,7 @@ export default function Loading() {
 
 <!-- TODO: 猜测: 下述是建议不要直接使用 `<Suspend>`  -->
 
-> **建议**: 请对路由段(布局和页面)使用 `loading.js`, 而不是直接使用 `<Suspend>`, 因为 Next.js 优化了这一功能.
+> **建议:** 请对路由段(布局和页面)使用 `loading.js`, 而不是直接使用 `<Suspend>`, 因为 Next.js 优化了这一功能.
 
 ---
 
@@ -100,8 +100,8 @@ export default function Posts() {
 
 通过使用 Suspense(悬挂), 你可以获得以下好处:
 
-- **Streaming Server Rendering(流式服务器渲染)**: 渐进式的由服务器向客户端提供渲染后的 HTML.
-- **Selective Hydration(可选的水合处理)**: React 会根据用户的交互情况, 优先选择哪些组件进行水合, 使其具有交互性.
+- **Streaming Server Rendering(流式服务器渲染):** 渐进式的由服务器向客户端提供渲染后的 HTML.
+- **Selective Hydration(可选的水合处理):** React 会根据用户的交互情况, 优先选择哪些组件进行水合, 使其具有交互性.
 
 查看更多 Suspense(悬挂) 的示例和用户案例, 请查看 [React 文档](https://react.dev/reference/react/Suspense).
 

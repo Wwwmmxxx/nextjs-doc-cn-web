@@ -102,7 +102,7 @@ export default function Page() {
 }
 ```
 
-> **请注意**: 如果你忘记创建 `layout.tsx`, 当你运行 `next dev` 命令时, Next.js 会为你自动创建该文件.
+> **请注意:** 如果你忘记创建 `layout.tsx`, 当你运行 `next dev` 命令时, Next.js 会为你自动创建该文件.
 
 学习更多 [App Router 的使用](https://nextjs.org/docs/app/building-your-application/routing/defining-routes).
 
@@ -148,7 +148,7 @@ export default function Document() {
 
 学习更多有关于 [Pages Router 的使用](https://nextjs.org/docs/pages/building-your-application/routing/pages-and-layouts)
 
-> **请注意**: 尽管你可以同时使用 App Router 和 Pages Router, App Router 的优先级会高级 Pages Router. 我们建议在项目中仅使用一种 Router 方式, 避免产生混淆.
+> **请注意:** 尽管你可以同时使用 App Router 和 Pages Router, App Router 的优先级会高级 Pages Router. 我们建议在项目中仅使用一种 Router 方式, 避免产生混淆.
 
 ### `public` 文件夹 (可选的)
 

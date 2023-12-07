@@ -31,7 +31,7 @@ export default function Page() {
 }
 ```
 
-> **请注意**:
+> **请注意:**
 >
 > - 一个页面应该总是[route subtree(路由子树)](https://nextjs.org/docs/app/building-your-application/routing#terminology)的[leaf(叶子结点)](https://nextjs.org/docs/app/building-your-application/routing#terminology).
 > - Pages(页面) 的文件扩展名可以使用 `.js`, `.jsx` 或 `.tsx`.
@@ -66,7 +66,7 @@ export default function DashboardLayout({
 }
 ```
 
-> **请注意**:
+> **请注意:**
 >
 > - 最顶层的布局被称为 [Root Layout(根布局)](https://nextjs.org/docs/app/building-your-application/routing/pages-and-layouts#root-layout-required). 该组件是必须存在的, 因为它会被整个应用内的页面所共同使用. Root Layout(根布局)必须包含 `html` 和 `body` 标签.
 > - 任何 Route Segment(路由段) 都可以定义它自己的 [Layout(布局 UI)](https://nextjs.org/docs/app/building-your-application/routing/pages-and-layouts#nesting-layouts)(这不是必须的). 这些布局 UI 将会在被该路由段内的页面所共享.
@@ -97,7 +97,7 @@ export default function RootLayout({
 }
 ```
 
-> **请注意**:
+> **请注意:**
 >
 > - `app` 目录必须包含 root layout(根布局).
 > - Next.js 不会自动创建 `<html>` 和 `<body>`, 所以根布局必须包含它们.
@@ -105,7 +105,7 @@ export default function RootLayout({
 > - 你可以使用 [Route Groups(路由组)](https://nextjs.org/docs/app/building-your-application/routing/route-groups) 来创建多个 Root Layouts(根布局). 点击查看[示例](https://nextjs.org/docs/app/building-your-application/routing/route-groups#creating-multiple-root-layouts).
 > - Root Layout(根布局) 默认是 [Server Components(服务端组件)](https://nextjs.org/docs/app/building-your-application/rendering/server-components), 并且 **不能** 被设置成 [Client Components(客户端组件)](https://nextjs.org/docs/app/building-your-application/rendering/client-components).
 
-> **`pages`目录迁移**: Root Layout(根布局) 代替了 `_app.js` 和 `_document.js` 文件. 查看[迁移指南](https://nextjs.org/docs/app/building-your-application/upgrading/app-router-migration#migrating-_documentjs-and-_appjs).
+> **`pages`目录迁移:** Root Layout(根布局) 代替了 `_app.js` 和 `_document.js` 文件. 查看[迁移指南](https://nextjs.org/docs/app/building-your-application/upgrading/app-router-migration#migrating-_documentjs-and-_appjs).
 
 ### Nesting Layouts (嵌套布局)
 
@@ -123,7 +123,7 @@ export default function DashboardLayout({
 }
 ```
 
-> **请注意**:
+> **请注意:**
 >
 > - 只有 Root Layout(根路由) 可以包含 `<html>` 和 `<body>` 标签.
 
@@ -185,6 +185,6 @@ export default function Page() {
 }
 ```
 
-> **请注意**: 你不应该在 root layout(根目录) 上手动追加 `<head>` 标签(比如 `<title>` 和 `<meta>`). 取而代之, 你应该使用 [Metadata API(元数据接口)](https://nextjs.org/docs/app/api-reference/functions/generate-metadata), 它能自动处理高级要求, 如流式传输和删除重复的 `<head>` 元素.
+> **请注意:** 你不应该在 root layout(根目录) 上手动追加 `<head>` 标签(比如 `<title>` 和 `<meta>`). 取而代之, 你应该使用 [Metadata API(元数据接口)](https://nextjs.org/docs/app/api-reference/functions/generate-metadata), 它能自动处理高级要求, 如流式传输和删除重复的 `<head>` 元素.
 
 [有关 metadata 的更多可用选项, 请参阅 API 相关资料](https://nextjs.org/docs/app/api-reference/functions/generate-metadata).

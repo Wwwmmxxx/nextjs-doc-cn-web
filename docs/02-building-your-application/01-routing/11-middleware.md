@@ -87,7 +87,7 @@ export const config = {
 };
 ```
 
-> **请注意**: `matcher`(匹配)的值必须是常量, 以便在构建时对其进行静态分析. 变量等动态值将被忽略.
+> **请注意:** `matcher`(匹配)的值必须是常量, 以便在构建时对其进行静态分析. 变量等动态值将被忽略.
 
 配置 matchers(匹配器):
 
@@ -98,7 +98,7 @@ export const config = {
 
 查看 [path-to-regexp(路径正则表达式)](https://github.com/pillarjs/path-to-regexp#path-to-regexp-1) 文档阅读更多细节.
 
-> **请注意**: 为了向后兼容, Next.js 会始终将 `/public` 视为 `/public/index`. 因此, matcher(匹配器) 内的 `/public/:path` 将与之匹配.
+> **请注意:** 为了向后兼容, Next.js 会始终将 `/public` 视为 `/public/index`. 因此, matcher(匹配器) 内的 `/public/:path` 将与之匹配.
 
 ### Conditional Statements (条件语句)
 
@@ -204,7 +204,7 @@ export function middleware(request: NextRequest) {
 }
 ```
 
-> **请注意**: 避免设置过大的头, 因为这会造成 [431 Request Header Fields Too Large(431 请求头字段过大)](https://developer.mozilla.org/docs/Web/HTTP/Status/431) 错误, 具体取决于后端网络服务器的配置.
+> **请注意:** 避免设置过大的头, 因为这会造成 [431 Request Header Fields Too Large(431 请求头字段过大)](https://developer.mozilla.org/docs/Web/HTTP/Status/431) 错误, 具体取决于后端网络服务器的配置.
 
 ---
 

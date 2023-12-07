@@ -47,7 +47,7 @@ export default function Layout(props: {
 }
 ```
 
-> **请注意**: `children` 属性是隐式的插槽, 不需要在文件夹中被指定. 这表示, `app/page.js` 与 `app/@children/page.js` 是相同的.
+> **请注意:** `children` 属性是隐式的插槽, 不需要在文件夹中被指定. 这表示, `app/page.js` 与 `app/@children/page.js` 是相同的.
 
 ---
 

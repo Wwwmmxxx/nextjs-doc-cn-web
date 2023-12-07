@@ -9,7 +9,7 @@ description: https://nextjs.org/docs/app/building-your-application/routing/inter
 
 ## Terminology (术语)
 
-- **Locale(地区)**: 一组语言和语言格式化中的标识符, 通常包括用户的首选语言以及可能的地理区域.
+- **Locale(地区):** 一组语言和语言格式化中的标识符, 通常包括用户的首选语言以及可能的地理区域.
   - `en-US`: 美国的英文
   - `nl-NL`: 荷兰的荷兰语
   - `nl`: 未指定地区的荷兰语

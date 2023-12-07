@@ -7,7 +7,7 @@ Route Handlers(路由处理器) 允许你使用 [Web Request](https://developer.
 
 ![route_handlers_1](https://nextjs.org/_next/image?url=%2Fdocs%2Flight%2Froute-special-file.png&w=1920&q=75&dpl=dpl_6jgZkA1aPHMzMLgPhXqA9RmLmMXZ)
 
-> **请注意**: Route Handlers(路由处理器) 只能在 `app` 目录内允许被使用. 它和 `pages` 目录内的 [API Routes(API 路由)](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) 是同一个东西, 所以你不需要同时使用 API Routes(API 路由) 和 Route Handler(路由处理器).
+> **请注意:** Route Handlers(路由处理器) 只能在 `app` 目录内允许被使用. 它和 `pages` 目录内的 [API Routes(API 路由)](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) 是同一个东西, 所以你不需要同时使用 API Routes(API 路由) 和 Route Handler(路由处理器).
 
 ---
 
@@ -51,7 +51,7 @@ export async function GET() {
 }
 ```
 
-> **Typescript 警告**: `Response.json()` 从 Typescript 5.2 后开始才能使用. 如果你使用了更低版本的 Typescript, 你可以使用 [`NextResponse.json()`](https://nextjs.org/docs/app/api-reference/functions/next-response#json) 来定义响应.
+> **Typescript 警告:** `Response.json()` 从 Typescript 5.2 后开始才能使用. 如果你使用了更低版本的 Typescript, 你可以使用 [`NextResponse.json()`](https://nextjs.org/docs/app/api-reference/functions/next-response#json) 来定义响应.
 
 ### Opting out of caching (退出缓存)
 
@@ -99,7 +99,7 @@ export async function POST() {
 }
 ```
 
-> **请注意**: 与 API Routes(API 路由) 一样, 路由处理器也可用于处理表单提交等情况. 我们正在开发一种与 React 深度结合的, 用于[handling forms and mutations(处理表单和突变)](https://nextjs.org/docs/app/building-your-application/data-fetching/forms-and-mutations)的新抽象.
+> **请注意:** 与 API Routes(API 路由) 一样, 路由处理器也可用于处理表单提交等情况. 我们正在开发一种与 React 深度结合的, 用于[handling forms and mutations(处理表单和突变)](https://nextjs.org/docs/app/building-your-application/data-fetching/forms-and-mutations)的新抽象.
 
 ### Route Resolution (路由解析)
 

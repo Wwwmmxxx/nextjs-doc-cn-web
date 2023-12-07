@@ -146,7 +146,7 @@ export default function Page() {
 
 获取 `useRouter` 内更多的更多, 请参考 [API 文档](https://nextjs.org/docs/app/api-reference/functions/use-router)
 
-> **建议**: 尽量使用 `<Link>` 组件进行路由间的导航, 除非你有明确的使用需求再用 `useRouter`.
+> **建议:** 尽量使用 `<Link>` 组件进行路由间的导航, 除非你有明确的使用需求再用 `useRouter`.
 
 ---
 
@@ -172,7 +172,7 @@ Prefetching(预获取)是在用户访问某一路由时, 在暗地里预先加�
 
 查看 [`<Link> API 文档`](https://nextjs.org/docs/app/api-reference/components/link) 来查看更多信息.
 
-> **请注意**:
+> **请注意:**
 >
 > - Prefetching(预获取)在开发环境是没有开启的, 只有在生产环境开启.
 

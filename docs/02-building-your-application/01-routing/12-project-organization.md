@@ -29,7 +29,7 @@ description: https://nextjs.org/docs/app/building-your-application/routing/coloc
 
 ![safe_colocation_by_default_3](https://nextjs.org/_next/image?url=%2Fdocs%2Flight%2Fproject-organization-colocation.png&w=1920&q=75&dpl=dpl_FMGsYbamaCihTR7jyf43krGr3wQk)
 
-> **请注意**:
+> **请注意:**
 >
 > - 这与 `pages` 目录不同, `pages` 内的任何文件都会被视为一个路由.
 > - 你可以将项目文件放在 `app` 目录中, 但你也可以不这样做, 如果你愿意, 可以将它们[keep them outside the `app` directory(放在 `app` 目录外)](https://nextjs.org/docs/app/building-your-application/routing/colocation#store-project-files-outside-of-app).
@@ -55,7 +55,7 @@ Private folders(隐私文件夹)通过在文件夹前加入下划线来创建: `
 - 在代码编辑器中编排和整理文件.
 - 避免与未来 Next.js 文件协定产生潜在的命名冲突.
 
-> **请注意**:
+> **请注意:**
 >
 > - 虽然这不是一个框架协定, 但你也可以考虑使用相同的下划线模式将私人文件夹之外的文件标记为 "私人" 文件.
 > - 你可以在文件夹名称前加上 `%5F` (下划线的 URL 编码形式), 创建以下划线开头的 URL 段: `%5FfolderName`.
@@ -102,7 +102,7 @@ import { Button } from "@/components/button";
 
 下一节列出了常见策略的概述. 最简单的方法就是选择一种适合你和你团队的策略, 并在整个项目中保持一致.
 
-> **请注意**: 在下面的示例中, 我们使用 `components` 和 `lib` 文件夹作为通用的占位符, 它们的命名没有特殊的框架意义, 你的项目可能会使用其他文件夹, 如 `ui`, `utils`, `hooks`, `styles` 等.
+> **请注意:** 在下面的示例中, 我们使用 `components` 和 `lib` 文件夹作为通用的占位符, 它们的命名没有特殊的框架意义, 你的项目可能会使用其他文件夹, 如 `ui`, `utils`, `hooks`, `styles` 等.
 
 ### Store project files outside of `app` (在 `app` 外存储项目文件)
 
