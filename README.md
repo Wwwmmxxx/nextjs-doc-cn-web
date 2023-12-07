@@ -4,6 +4,8 @@
 
 翻译文档 👉: https://github.com/Wwwmmxxx/nextjs-doc-cn
 
+Node.js 翻译的 Next.js 文档 👉: https://next.nodejs.cn/
+
 Next.js 源文档 👉: https://nextjs.org/
 
 计划 ✏️:
